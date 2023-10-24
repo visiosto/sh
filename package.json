@@ -1,0 +1,19 @@
+{
+  "name": "sh",
+  "version": "0.0.0",
+  "description": "Visiosto's common and public script utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visiosto/sh.git"
+  },
+  "author": "Visiosto oy <visiosto@visiosto.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visiosto/sh/issues"
+  },
+  "homepage": "https://github.com/visiosto/sh#readme"
+}
