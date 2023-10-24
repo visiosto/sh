@@ -2,18 +2,23 @@
   "name": "sh",
   "version": "0.0.0",
   "description": "Visiosto's common and public script utilities.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/visiosto/sh#readme",
+  "bugs": {
+    "url": "https://github.com/visiosto/sh/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/visiosto/sh.git"
   },
-  "author": "Visiosto oy <visiosto@visiosto.fi>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/visiosto/sh/issues"
+  "author": "Visiosto oy <visiosto@visiosto.fi>",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md,sh,gitignore}\""
   },
-  "homepage": "https://github.com/visiosto/sh#readme"
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-packagejson": "^2.4.6",
+    "prettier-plugin-sh": "^0.13.1"
+  }
 }
