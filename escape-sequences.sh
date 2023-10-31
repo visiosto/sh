@@ -17,5 +17,3 @@ export ESC_CYAN="$ESC[36m"
 export ESC_LIGHT_RED="$ESC[91m"
 export ESC_LIGHT_GREEN="$ESC[92m"
 export ESC_LIGHT_CYAN="$ESC[96m"
-
-echo -e "${ESC_DIM}Setting the escape sequence variables.$ESC_RESET"
